@@ -131,15 +131,58 @@ img {
  
 
  @media screen and (max-width: 480px) {
+    /*
     .container {
-        width: 100%;
+        width: 100vw;
         flex-wrap: wrap;
     }
+    
+    .lessons .col {
+        max-width: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lessons .col img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    
     .col {
         width: 100%;
         flex-wrap: wrap;
     }
-    .img {
+    */
+    .row {
+        display: block;
+        
+    }
+    .container {
+        max-width: 100vw;
+    }
+    .card {
         width: 100%;
+        margin: auto;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    
+    .steps .col {
+        width: 100%;
+    }
+    
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .steps {
+        
+        
     }
  }
