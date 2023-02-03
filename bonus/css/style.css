@@ -185,10 +185,14 @@ img {
  }
 
  @media screen and (max-width: 1160px), screen and (max-width: 768px) {
-    .steps {
-        margin: auto;
+    
+    .steps .col {
+        max-width: calc(100% / 3);
+    }
+    .card img {
         max-width: 100%;
     }
  }
+
     
  
