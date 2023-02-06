@@ -159,7 +159,6 @@ img {
  @media screen and (max-width: 480px) {
     .row {
         display: block;
-        
     }
     .container {
         max-width: 100vw;
@@ -182,15 +181,25 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+    .why-us {
+        background-color: black;
+        padding: 3rem 0;
+    }
+    .steps, .why-us {
+        margin-bottom: 0;
+    }
+    .col {
+        margin-bottom: 3rem;
+    }
+    .col:first-child {
+        margin-top: 0;
+    }
  }
 
- @media screen and (max-width: 1160px), screen and (max-width: 768px) {
+ @media screen and (max-width: 1160px) {
     
-    .steps .col {
-        max-width: calc(100% / 3);
-    }
-    .card img {
-        max-width: 100%;
+    .container {
+        width: 100%;
     }
  }
 
